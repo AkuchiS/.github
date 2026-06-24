@@ -8,8 +8,10 @@
 
 | Tool | What it does | Price |
 |------|--------------|-------|
+| **[yap](https://github.com/AkuchiS/yap)** | Free, offline voice dictation for macOS / Windows / Linux — hold a key, speak, and your words appear at the cursor. Local Whisper, learns your vocabulary. | Free (MIT) |
 | **[FlowProof](https://github.com/AkuchiS/flowproof)** | Check that an n8n workflow export imports cleanly — leaked creds, missing nodes, version drift, broken connections. Verdicts arbitrated against a live n8n import. | Free CLI (MIT) · Pro $24 launch |
 | **[AEGIS Guard](https://github.com/AkuchiS/aegis-guard)** | Drop-in input/output safety for AI agents — screen prompt-injection in, catch leaked secrets / refusals / slop out. Zero dependencies. | Free (MIT) |
+| **[Governance-in-a-Box](https://github.com/AkuchiS/governance-in-a-box)** | Verifiable AI-build governance — four modules that prove themselves with one offline command (`python3 verify.py`). | Free (MIT) |
 | **AEGIS Scan** | Read-only security scan of your own box — Python deps, OS/container CVEs, host-posture audit with a 0–100 score. Reports, never changes anything. | $24 launch |
 | **[ProxSweep](https://github.com/AkuchiS/proxsweep)** | One script updates your whole Proxmox homelab — host, every LXC, and Docker — in a single pass. | Free (MIT) |
 | **[Pinchflat LXC Installer](https://github.com/AkuchiS/pinchflat)** | Install Pinchflat (self-hosted YouTube archiver) in a Proxmox LXC with one command. | Free (MIT) |
