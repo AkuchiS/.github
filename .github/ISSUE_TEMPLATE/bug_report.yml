@@ -1,0 +1,47 @@
+name: Bug report
+description: Something isn't working the way it should
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for the report. These tools run offline and don't phone home, so we
+        can only see what you paste here — the more concrete, the faster the fix.
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened
+      description: The exact command you ran and what it did.
+      placeholder: |
+        $ flowproof check workflow.json
+        ...output...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What you expected instead
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Tool version
+      description: Output of `--version` where available.
+    validations:
+      required: false
+  - type: input
+    id: os
+    attributes:
+      label: OS / environment
+      placeholder: "macOS 14.5 · Python 3.12 · Proxmox 8.2 · etc."
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Error output / logs
+      description: Paste any traceback or error text. This will be rendered as code.
+      render: shell
+    validations:
+      required: false
