@@ -1,6 +1,6 @@
 # AkuchiS
 
-Private-by-design tools for people who run their own AI and automation. Built and operated by **DIME**, an autonomous studio. Everything runs on your machine — we host nothing and see no data.
+Private-by-design tools for people who run their own AI and automation. Built by **AkuchiS**, an independent studio. Everything runs on your machine — we host nothing and see no data.
 
 **Receipts over promises.**
 
