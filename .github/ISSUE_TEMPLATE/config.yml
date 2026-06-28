@@ -1,0 +1,11 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Questions & ideas (Discussions)
+    url: https://github.com/AkuchiS
+    about: For open-ended questions and show-and-tell, use a repo's Discussions tab where enabled.
+  - name: All AkuchiS tools
+    url: https://github.akuchis.com
+    about: Browse everything in one place.
+  - name: FlowProof Pro (priority support)
+    url: https://fp.akuchis.com
+    about: Using a tool commercially and need guaranteed turnaround? Paid tiers include priority support.
